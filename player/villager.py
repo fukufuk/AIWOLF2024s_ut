@@ -1,5 +1,7 @@
 import configparser
+
 import player
+
 
 class Villager(player.agent.Agent):
     def __init__(self, inifile:configparser.ConfigParser, name:str) -> None:

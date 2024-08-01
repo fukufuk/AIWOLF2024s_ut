@@ -1,8 +1,10 @@
-import os
-import errno
 import configparser
+import errno
+import os
 import random
+
 import player
+
 
 def read_text(path:str):
     with open(path,"r",encoding="utf-8") as f:
